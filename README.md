@@ -6,8 +6,6 @@ Este programa é desenvolvido para rodar em um microcontrolador Raspberry Pi Pic
 
 ## Funcionamento do programa
 1. Configura os pinos dos LEDs (vermelho, amarelo e verde) como saída.
-   Inicializa todos os LEDs apagados e prepara a interrupção do botão.
-   O sistema fica em espera, aguardando o pressionamento do botão.
 
 2. Usa add_repeating_timer_ms() para criar um temporizador de 3 segundos.
    A função repeating_timer_callback é chamada a cada 3 segundos para alternar o estado dos LEDs.
